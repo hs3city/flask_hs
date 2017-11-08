@@ -54,3 +54,25 @@ python manage.py init_db
 python manage.py drop_db
 ```
 
+### Wymagania
+
+Aplikacja ToDo - wymagania:
+ - [x] Menu do nawigacji u góry strony
+ - [x] Główna strona z możliwością rejestracji i zalogowania
+ - [x] Wszystkie pozostałe funkcjonalności dostępne są po zalogowaniu
+ - [x] Lista ToDo danego użytkownika po zalogowaniu
+ - [ ] Możliwość tworzenia kategorii list ToDo
+ - [ ] Wyświetlanie ToDo dla wybranych kategorii
+ - [ ] Możliwość oznaczania ToDo jako "skończone" -> przestają być
+ widoczne na liście ToDo
+ - [ ] Odzielna strona na przeglądanie zamkniętych ToDo
+ - [ ] Strony ze statystykami dotyczącymi ToDo -> ile zakończonych,
+ ile trwały (avg/min/max)
+ - [ ] Możliwość wyświetlania/wyszukiwania zamkniętych ToDo
+
+Wymagania niefunkcjonalne:
+ - [x] Makefile lub inny mechanizm to automatyzacji wykonywania różnych operacji
+ - [ ] testy funkcjonalne
+ - [ ] unit testy
+ - [x] Budowanie dockera w którym uruchamiana będzie aplikacja
+ - [ ] docker-compose do uruchomienia aplikacji z bazą danych PostgreSQL
